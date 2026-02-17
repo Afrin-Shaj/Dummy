@@ -6,7 +6,7 @@ headers = {
     "x-api-key": "testing"
 }
 payload = {
-    "prompt": "What is full form S?"
+    "prompt": "What is full form of AWS?"
 }
 
 response = requests.post(url, json=payload, headers=headers, timeout=60)
