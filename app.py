@@ -16,4 +16,4 @@ print("Raw Response:", response.text)
 
 print("Parsed Response:", response.json())  
 
-payload = response.json()
+
